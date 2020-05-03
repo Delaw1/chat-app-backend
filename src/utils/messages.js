@@ -6,7 +6,7 @@ const generateMessage = (text, username) => {
     }
 }
 
-const generateLocationMessage = (url, username) => {
+const generateLocationMessage = (url, username) => { 
     return {
         url,
         username,
