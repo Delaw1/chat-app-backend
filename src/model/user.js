@@ -57,7 +57,7 @@ userSchema.statics.findByCredentials = async function(username, password) {
         throw new Error("Invalid credentials")
     }
     return user
-}
+} 
 
 userSchema.pre('save', async function(next) {
     if(this.isModified('password')) {

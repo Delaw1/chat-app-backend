@@ -71,7 +71,7 @@ app.post("/api/register", async (req, res) => {
         return res.status(400).send(e)
     }
     
-})
+}) 
 
 app.post("/api/login", async (req, res) => {
     try {

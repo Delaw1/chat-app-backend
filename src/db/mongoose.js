@@ -4,5 +4,5 @@ mongoose.connect("mongodb://127.0.0.1:27017/chat-app", {
     useNewUrlParser: true, 
     useCreateIndex: true,
     useUnifiedTopology: true,
-    useFindAndModify: false
+    useFindAndModify: false 
 })
